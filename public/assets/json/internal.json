@@ -1,0 +1,710 @@
+{
+    "index": 2,
+	"filters": [
+		{
+			"index": 1,
+			"name": "wooden-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 2,
+			"name": "iron-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 3,
+			"name": "steel-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 4,
+			"name": "storage-tank",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 5,
+			"name": "transport-belt",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 6,
+			"name": "fast-transport-belt",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 7,
+			"name": "express-transport-belt",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 8,
+			"name": "underground-belt",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 9,
+			"name": "fast-underground-belt",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 10,
+			"name": "express-underground-belt",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 11,
+			"name": "splitter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 12,
+			"name": "fast-splitter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 13,
+			"name": "express-splitter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 14,
+			"name": "burner-inserter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 15,
+			"name": "inserter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 16,
+			"name": "long-handed-inserter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 17,
+			"name": "fast-inserter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 18,
+			"name": "bulk-inserter",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 19,
+			"name": "small-electric-pole",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 20,
+			"name": "medium-electric-pole",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 21,
+			"name": "big-electric-pole",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 22,
+			"name": "substation",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 23,
+			"name": "pipe",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 24,
+			"name": "pipe-to-ground",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 25,
+			"name": "pump",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 26,
+			"name": "rail",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 27,
+			"name": "train-stop",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 28,
+			"name": "rail-signal",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 29,
+			"name": "rail-chain-signal",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 30,
+			"name": "locomotive",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 31,
+			"name": "cargo-wagon",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 32,
+			"name": "fluid-wagon",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 33,
+			"name": "artillery-wagon",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 34,
+			"name": "car",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 35,
+			"name": "tank",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 36,
+			"name": "spidertron",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 37,
+			"name": "logistic-robot",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 38,
+			"name": "construction-robot",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 39,
+			"name": "active-provider-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 40,
+			"name": "passive-provider-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 41,
+			"name": "storage-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 42,
+			"name": "buffer-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 43,
+			"name": "requester-chest",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 44,
+			"name": "roboport",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 45,
+			"name": "small-lamp",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 46,
+			"name": "arithmetic-combinator",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 47,
+			"name": "decider-combinator",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 48,
+			"name": "selector-combinator",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 49,
+			"name": "constant-combinator",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 50,
+			"name": "power-switch",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 51,
+			"name": "programmable-speaker",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 52,
+			"name": "display-panel",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 53,
+			"name": "stone-brick",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 54,
+			"name": "concrete",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 55,
+			"name": "hazard-concrete",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 56,
+			"name": "refined-concrete",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 57,
+			"name": "refined-hazard-concrete",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 58,
+			"name": "landfill",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 59,
+			"name": "cliff-explosives",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 60,
+			"name": "repair-pack",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 61,
+			"name": "boiler",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 62,
+			"name": "steam-engine",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 63,
+			"name": "solar-panel",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 64,
+			"name": "accumulator",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 65,
+			"name": "nuclear-reactor",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 66,
+			"name": "heat-pipe",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 67,
+			"name": "heat-exchanger",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 68,
+			"name": "steam-turbine",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 69,
+			"name": "burner-mining-drill",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 70,
+			"name": "electric-mining-drill",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 71,
+			"name": "offshore-pump",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 72,
+			"name": "pumpjack",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 73,
+			"name": "stone-furnace",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 74,
+			"name": "steel-furnace",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 75,
+			"name": "electric-furnace",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 76,
+			"name": "assembling-machine-1",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 77,
+			"name": "assembling-machine-2",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 78,
+			"name": "assembling-machine-3",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 79,
+			"name": "oil-refinery",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 80,
+			"name": "chemical-plant",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 81,
+			"name": "centrifuge",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 82,
+			"name": "lab",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 83,
+			"name": "beacon",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 84,
+			"name": "speed-module",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 85,
+			"name": "speed-module-2",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 86,
+			"name": "speed-module-3",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 87,
+			"name": "efficiency-module",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 88,
+			"name": "efficiency-module-2",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 89,
+			"name": "efficiency-module-3",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 90,
+			"name": "productivity-module",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 91,
+			"name": "productivity-module-2",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 92,
+			"name": "productivity-module-3",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 93,
+			"name": "rocket-silo",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 94,
+			"name": "cargo-landing-pad",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 95,
+			"name": "satellite",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 96,
+			"type": "fluid",
+			"name": "water",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 97,
+			"type": "fluid",
+			"name": "steam",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 98,
+			"type": "fluid",
+			"name": "crude-oil",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 99,
+			"type": "fluid",
+			"name": "petroleum-gas",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		},
+		{
+			"index": 100,
+			"type": "fluid",
+			"name": "light-oil",
+			"quality": "normal",
+			"comparator": "=",
+			"count": 0
+		}
+	]
+}
