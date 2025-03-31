@@ -1,3 +1,8 @@
+<h2>FactorioGIF</h2>
+
+![factoriogif1](https://github.com/user-attachments/assets/8066220d-d1bd-4b4d-89e1-07051d2d2e99)![factoriogif2](https://github.com/user-attachments/assets/dd69c6ea-9580-4d92-9348-1a4dd5de72d7)
+
+
 현재 FACTORIOGIF는 다음의 사양을 가집니다.
 
 - 40x40 픽셀(사이즈는 자동 조절됨)
