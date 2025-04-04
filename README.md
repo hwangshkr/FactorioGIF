@@ -5,7 +5,7 @@
 
 현재 FACTORIOGIF는 다음의 사양을 가집니다.
 
-- 40x40 픽셀(사이즈는 자동 조절됨)
+- 40x40 ~ 80x80 픽셀(사이즈는 자동 조절됨)
 - 최대 12 프레임
 
 [https://hwangshkr.github.io/FactorioGIF/](https://hwangshkr.github.io/FactorioGIF/)

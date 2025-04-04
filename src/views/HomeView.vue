@@ -6,7 +6,7 @@
     <div class="info">
       현재 FACTORIOGIF는 다음의 사양을 가집니다.
       <ul>
-        <li>40x40 픽셀 (사이즈는 자동 조절됨)</li>
+        <li>40x40 ~ 80x80 픽셀 (사이즈는 자동 조절됨)</li>
         <li>최대 12 프레임</li>
       </ul>
     </div>
@@ -22,6 +22,11 @@
     <div class="delay-input">
       <label for="delay">대기 시간 (초)</label>
       <input type="number" id="delay" :value="time" step="0.1" min="0.1" max="100" @input="ChangeSpeed($event.target.value)" />
+    </div>
+
+    <div class="delay-input">
+      <label for="col">크기</label>
+      <input type="number" id="col" :value="size" min="4" max="8" @input="ClearImage($event.target.value)" />
     </div>
 
     <div>
@@ -47,6 +52,7 @@ export default defineComponent({
             time : 1,
             split : 10,
             maxFrame : 12,
+            size : 4,
             realSize : 40,
             previewSize : 200,
             canvasList : [],
@@ -111,23 +117,24 @@ export default defineComponent({
             const ctx = realCanvas.getContext('2d', { willReadFrequently: true });
 
             const ratio = Math.min(img.width, img.height) / Math.max(img.width, img.height);
-            realCanvas.width = this.realSize;
-            realCanvas.height = this.realSize;
+            var realSize = this.split * this.size;
+            realCanvas.width = realSize;
+            realCanvas.height = realSize;
             if (img.width > img.height) {
-                ctx.drawImage(img, 0, 0, this.realSize, this.realSize * ratio);
+                ctx.drawImage(img, 0, 0, realSize, realSize * ratio);
             } else {
-                ctx.drawImage(img, 0, 0, this.realSize * ratio, this.realSize);
+                ctx.drawImage(img, 0, 0, realSize * ratio, realSize);
             }
 
             const cutCanvas = document.createElement('canvas');
             const ctx2 = cutCanvas.getContext('2d', { willReadFrequently: true });
-            const cutSize = this.realSize + (Math.floor(this.realSize / this.split) - 1) * 2;
+            const cutSize = realSize + (Math.floor(realSize / this.split) - 1) * 2;
             cutCanvas.width = cutSize;
             cutCanvas.height = cutSize;
             cutCanvas.className = "loadedImg";
 
-            for (var i = 0; i < this.realSize; i++) {
-                for (var j = 0; j < this.realSize; j++) {
+            for (var i = 0; i < realSize; i++) {
+                for (var j = 0; j < realSize; j++) {
                     const pixel = ctx.getImageData(i, j, 1, 1);
                     ctx2.putImageData(pixel, i + Math.floor(i / this.split) * 2, j + Math.floor(j / this.split) * 2);
                 }
@@ -163,7 +170,10 @@ export default defineComponent({
         getImgUrl(img) {
             return this.getUrl(`images/` + img);
         },
-        ClearImage() {
+        ClearImage(size) {
+            if (size) {
+                this.size = size;
+            }
             this.StopGIF();
 
             const previewImage = document.getElementById('previewImage');
@@ -222,7 +232,7 @@ export default defineComponent({
             if (length > this.maxFrame) {
                 length = this.maxFrame;
             }
-            const row = this.realSize / this.split;
+            const row = this.size;
             fetch(this.getUrl(`json/internal.json`))
             .then(resp => resp.blob())
             .then(blob => {
@@ -249,7 +259,7 @@ export default defineComponent({
                             }
                         }
                     }
-                    fetch(this.getUrl(`json/base4.json`))
+                    fetch(this.getUrl(`json/base` + row + `.json`))
                     .then(resp => resp.blob())
                     .then(blob => {
                         let f = new FileReader();
