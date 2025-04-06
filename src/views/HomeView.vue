@@ -52,8 +52,7 @@ export default defineComponent({
             time : 1,
             split : 10,
             maxFrame : 12,
-            size : 4,
-            realSize : 40,
+            size : 8,
             previewSize : 200,
             canvasList : [],
             gifInterval : null,
@@ -76,7 +75,11 @@ export default defineComponent({
                         const gifCtx = gifCanvas.getContext('2d', { willReadFrequently: true });
                         const gifImageData = gifCtx.createImageData(gifCanvas.width, gifCanvas.height);
 
-                        for (var i = 0; i < frames.length; i++) {
+                        var length = frames.length;
+                        if (length > this.maxFrame) {
+                            length = this.maxFrame;
+                        }
+                        for (var i = 0; i < length; i++) {
                         //for (var i = 1; i < 2; i++) {
                             await this.AddCanvasImage(gifCanvas, frames[i]);
                         }
